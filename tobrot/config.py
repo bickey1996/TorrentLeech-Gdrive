@@ -13,7 +13,8 @@ class Config(Config):
     DESTINATION_FOLDER = "TorrentLeech-Gdrive" #Name of your folder read readme(not id of the folder)
     #Just don't fill RCLONE_CONFIG vars, insted copy your rclone.conf file in root directory
     #if your wanted to fill -- fill your rclone config like this(Your config may have some extra value or less. so Don't worry)
-    RCLONE_CONFIG = """type = drive
+    RCLONE_CONFIG = """
+type = drive
 client_id = 436078733381-9h59acfs6n07nd4snk2ulck4jq6h57t6.apps.googleusercontent.com
 client_secret = u6s92dGP_TM8Q5kOaJa9p3HJ
 scope = drive
